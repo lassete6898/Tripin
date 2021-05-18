@@ -1,12 +1,12 @@
 body {
-    background-color: #CEBCFF;
+    background-color: #d4c4ff;
 }
 
-.estilo {
+.style {
     color: black;
 }
 
-.estilo:hover {
+.style:hover {
     color: black;
     text-decoration: none;
 }
