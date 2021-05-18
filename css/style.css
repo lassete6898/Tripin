@@ -15,3 +15,13 @@ body {
     margin-top: 2%;
     width: 25%;
 }
+
+.rectangulo{
+    padding: 3%;
+    margin-top: 3%;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    height: 400px;
+    width: 75%;
+}
