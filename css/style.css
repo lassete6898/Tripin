@@ -1,27 +1,33 @@
 body {
-    background-color: #d4c4ff;
+  background-color: #d4c4ff;
 }
 
 .style {
-    color: black;
+  color: black;
 }
 
 .style:hover {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .form-control {
-    margin-top: 2%;
-    width: 25%;
+  margin-top: 2%;
+  width: 25%;
 }
 
-.rectangulo{
-    padding: 3%;
-    margin-top: 3%;
+.rectangulo {
+  padding: 3%;
+  margin-top: 3%;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  height: 400px;
+  width: 75%;
+}
+
+.carousel-caption {
+    color: black;
     background-color: white;
-    border: solid 1px black;
     border-radius: 5px;
-    height: 400px;
-    width: 75%;
 }
