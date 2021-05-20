@@ -31,3 +31,24 @@ body {
     background-color: white;
     border-radius: 5px;
 }
+
+.search {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.search a {
+  margin-left: 1%;
+}
+
+.images {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
