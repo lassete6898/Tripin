@@ -2,11 +2,6 @@ body {
   background-color: #d4c4ff;
 }
 
-img{
-  border-radius: 10px;
-  border: 2px solid black;
-}
-
 .style {
   color: black;
   font-family: 'Alegreya', serif;
@@ -58,6 +53,11 @@ img{
   margin-top: 5%;
   display: flex;
   justify-content: space-around;
+}
+
+.imagesIndex img{
+  border-radius: 10px;
+  border: 2px solid black;
 }
 
 .wrapper {
