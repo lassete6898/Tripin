@@ -2,8 +2,14 @@ body {
   background-color: #d4c4ff;
 }
 
+img{
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
 .style {
   color: black;
+  font-family: 'Alegreya', serif;
 }
 
 .style:hover {
