@@ -45,10 +45,41 @@ body {
 
 .search a {
   margin-left: 1%;
+  margin-top: 2.3%;
 }
 
 .images {
   margin-top: 5%;
   display: flex;
   justify-content: space-around;
+}
+
+.wrapper {
+  margin-top: 5%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 10px;
+  color: #444;
+  margin-bottom: 5%;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 150%;
+}
+
+.box img {
+  border-radius: 5px;
+}
+
+.box a {
+  text-decoration: none;
+  color: #444;
+}
+
+.back {
+  margin: 2%;
 }
