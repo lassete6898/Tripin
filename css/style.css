@@ -34,7 +34,6 @@ body {
 }
 
 .search {
-  margin-top: 3%;
   display: flex;
   justify-content: center;
 }
@@ -88,4 +87,56 @@ body {
 
 .back {
   margin: 2%;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+.hotels {
+  border: 1px solid black; 
+  border-radius: 10px;
+  padding: 5px; 
+  background-color: white;
+  text-align: left;
+  margin-top: 3%;
+  margin-left: -2%;
+  padding-left: 2%;
+}
+
+.hotels a {
+  text-decoration: none;
+  color: black;
+}
+
+.hotels img {
+  margin-left: 55%;
+}
+
+.restaurants {
+  border: 1px solid black; 
+  border-radius: 10px;
+  padding: 5px; 
+  background-color: white;
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 2%;
+  padding-left: 2%;
+}
+
+.restaurants a {
+  text-decoration: none;
+  color: black;
+}
+
+.restaurants img {
+  margin-left: 40%;
+}
+
+footer {
+  margin-top: 20%;
 }
