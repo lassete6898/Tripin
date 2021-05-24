@@ -140,3 +140,19 @@ body {
 footer {
   margin-top: 10%;
 }
+
+.searchHotels {
+  margin-top: 2%;
+}
+
+.date {
+  text-align: center;
+}
+
+#guests {
+  width: 25%;
+}
+
+.searchRestaurants {
+  margin-top: 2%;
+}
