@@ -86,7 +86,8 @@ body {
 }
 
 .back {
-  margin: 2%;
+  margin-left: 3%;
+  margin-top: 2%;
 }
 
 .carousel-inner {
@@ -155,4 +156,28 @@ footer {
 
 .searchRestaurants {
   margin-top: 2%;
+}
+
+.info {
+  margin-top: -2.5%;
+}
+
+.vl {
+  border-right: 1px solid black;
+  height: 200%;
+}
+
+.comments {
+  margin-top: 10%;
+}
+
+.column1 {
+  width: 25%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.column2 {
+  width: 75%;
+  text-align: justify;
 }
