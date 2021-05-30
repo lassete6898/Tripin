@@ -28,17 +28,18 @@
         <div class="col-md-12">
             <center>
                 <img src="./images/user2.png" width="150" height="150" style="margin-top:5%;">
-                <form action="user.html">
+                <form>
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" placeholder="Nombre">
                         <input type="text" class="form-control" id="surname" placeholder="Apellidos">
                         <input type="email" class="form-control" id="email" placeholder="Email">
                         <input type="password" class="form-control" id="password" placeholder="Contraseña">
+                        <input type="password" class="form-control" id="passwordConfirm" placeholder="Confirmar contraseña">
                     </div>
-                    <button type="submit" class="btn btn-primary">Registrarse</button>
-                    <br>
-                    <a href="login.html">¿Ya tienes cuenta? Inicia sesión.</a>
                 </form>
+                <button class="btn btn-primary" onclick="register()">Registrarse</button>
+                <br>
+                <a href="login.html">¿Ya tienes cuenta? Inicia sesión.</a>
             </center>
         </div>
     </div>
