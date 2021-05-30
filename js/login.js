@@ -9,6 +9,6 @@ function login() {
   } else if (password.length == 0) {
     window.alert("Introduce la contraseña");
   } else {
-    window.location.href = 'user.html';
+    window.location.href = "user.html";
   }
 }
