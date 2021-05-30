@@ -169,6 +169,10 @@ footer {
   border-radius: 10px;
 }
 
+#guests {
+  width: 7em;
+}
+
 .searchRestaurants {
   margin-top: 2%;
 }
