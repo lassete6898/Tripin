@@ -2,28 +2,27 @@ body {
   background: linear-gradient(#1cb5e0, #a8faf6);
 }
 
-.navbar{
+.navbar {
   background: linear-gradient(#1cb5e0, #a8faf6);
   box-shadow: 0 1px 2px 0 black;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: black;
   font-size: 30px;
   font-family: "Alegreya", serif;
-  margin-left:10%;
+  margin-left: 10%;
 }
 
-.navbar-brand:hover{
-  color: #ffffff;  
+.navbar-brand:hover {
+  color: #ffffff;
   font-family: "Alegreya", serif;
   font-weight: bolder;
 }
 
-.navbar-icon{
-  margin-right:10%;
+.navbar-icon {
+  margin-right: 10%;
 }
-
 
 .form-control {
   margin-top: 2%;
