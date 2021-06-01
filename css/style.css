@@ -6,9 +6,11 @@
 body {
   background: linear-gradient(#607DC8, #E0E5F4); 
 }
+
 .col-lg-4{
   font-size: large;
 }
+
 .navbar-brand {
   color: black;
   font-size: 30px;    
