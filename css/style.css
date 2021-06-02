@@ -7,10 +7,6 @@ body {
   background: linear-gradient(#607DC8, #E0E5F4); 
 }
 
-.col-lg-4{
-  font-size: large;
-}
-
 .navbar-brand {
   color: black;
   font-size: 30px;    
@@ -78,6 +74,10 @@ body {
   margin-bottom: 5%;
 }
 
+.boxes {
+  margin-top: 5%;
+}
+
 .box {
   background-color: white;
   border: 1px solid black;
@@ -113,6 +113,7 @@ body {
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
+  max-width: 27.3%;
 }
 
 .grid a {
@@ -120,10 +121,6 @@ body {
   color: black;
   font-family: 'Sigmar One', cursive;
   font-size: 20px;
-}
-
-.grid img {
-  margin-left: 55%;
 }
 
 footer {
