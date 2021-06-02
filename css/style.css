@@ -62,13 +62,8 @@ body {
   margin-top: 2.3%;
 }
 
-.images {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-around;
-}
-
 .imagesIndex img {
+  margin-top: 10%;
   border-radius: 10px;
   border: 2px solid black;
 }
@@ -112,48 +107,27 @@ body {
   border-radius: 10px;
 }
 
-.hotels {
+.grid {
+  margin-top: 5%;
+  padding: 1%;
+  background-color: white;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 5px;
-  background-color: white;
-  text-align: left;
-  margin-top: 3%;
-  margin-left: -2%;
-  padding-left: 2%;
 }
 
-.hotels a {
+.grid a {
   text-decoration: none;
   color: black;
+  font-family: 'Sigmar One', cursive;
+  font-size: 20px;
 }
 
-.hotels img {
+.grid img {
   margin-left: 55%;
 }
 
-.restaurants {
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 5px;
-  background-color: white;
-  text-align: left;
-  margin-top: 3%;
-  margin-left: 2%;
-  padding-left: 2%;
-}
-
-.restaurants a {
-  text-decoration: none;
-  color: black;
-}
-
-.restaurants img {
-  margin-left: 40%;
-}
-
 footer {
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 .footerlist{
