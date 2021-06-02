@@ -1,16 +1,16 @@
 .navbar {
-  background: linear-gradient(#607DC8, #E0E5F4); 
+  background: linear-gradient(#607dc8, #e0e5f4);
   box-shadow: 0 1px 4px 0 black;
 }
 
 body {
-  background: linear-gradient(#607DC8, #E0E5F4); 
+  background: linear-gradient(#607dc8, #e0e5f4);
 }
 
 .navbar-brand {
   color: black;
-  font-size: 30px;    
-  font-family: 'Sigmar One', cursive;
+  font-size: 30px;
+  font-family: "Sigmar One", cursive;
   margin-left: 7%;
 }
 
@@ -75,7 +75,8 @@ body {
 }
 
 .boxes {
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-left: 1%;
 }
 
 .box {
@@ -83,6 +84,8 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   font-size: 150%;
+  max-width: 50%;
+  margin: 3%;
 }
 
 .box img {
@@ -119,7 +122,7 @@ body {
 .grid a {
   text-decoration: none;
   color: black;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 20px;
 }
 
@@ -127,9 +130,8 @@ footer {
   margin-top: 20%;
 }
 
-.footerlist{
+.footerlist {
   color: black;
-  
 }
 
 .searchHotels {
