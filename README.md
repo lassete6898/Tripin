@@ -1,2 +1,2 @@
 # Tripin
-<h1> Trabajo Final - Interfaces de Usuario </h1>
+<h1 align="center"> Trabajo Final - Interfaces de Usuario </h1>
