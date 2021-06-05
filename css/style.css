@@ -64,6 +64,12 @@ body {
   border: 2px solid black;
 }
 
+.imagesReview img {
+  margin-top: 10%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
 .wrapper {
   margin-top: 5%;
   justify-content: center;
