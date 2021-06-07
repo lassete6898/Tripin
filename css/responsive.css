@@ -26,4 +26,12 @@
     .comments {
         max-width: 95%;
     }
+
+    .select {
+        margin-left: 7%;
+    }
+      
+    .select2 {
+        margin-left: 22.5%;
+    }
 }
