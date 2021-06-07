@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .navbar {
   background: linear-gradient(#607dc8, #e0e5f4);
@@ -12,7 +12,7 @@ body {
 .navbar-brand {
   color: black;
   font-size: 30px;
-  font-family: "Sigmar One", cursive;
+  font-family: 'Raleway', sans-serif;
   margin-left: 7%;
 }
 
@@ -130,8 +130,8 @@ body {
 .grid a {
   text-decoration: none;
   color: black;
-  font-family: "Sigmar One", cursive;
-  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 
 footer {
