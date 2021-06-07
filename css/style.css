@@ -149,11 +149,6 @@ footer {
   border-radius: 10px;
 }
 
-.guests {
-  width: 25%;
-  border-radius: 10px;
-}
-
 #guests {
   width: 7em;
 }
@@ -184,4 +179,32 @@ footer {
 .column2 {
   width: 75%;
   text-align: justify;
+}
+
+.select {
+  margin-left: 22%;
+}
+
+.select2 {
+  margin-left: 30%;
+}
+
+.start {
+  width: 10em;
+  margin-right: 2%;
+}
+
+.end {
+  width: 10em;
+  margin-right: 2%;
+}
+
+#start {
+  width: 10em;
+  margin-right: 2%;
+}
+
+#end {
+  width: 10em;
+  margin-right: 2%;
 }

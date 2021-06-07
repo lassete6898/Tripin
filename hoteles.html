@@ -38,12 +38,22 @@
                         </a>
                     </div>
                     <br>
-                    <div class="date">
-                        <input type="date" id="start">
-                        <input type="date" id="end">
-                        <input type="number" id="guests" min="0" placeholder="Huéspedes" width="20">
+                    <div class="container select">
+                        <div class="row">
+                            <p class="start">
+                                Fecha Inicio
+                                <input class="form-control" type="datetime-local" id="start">
+                            </p>
+                            <p class="end">
+                                Fecha Fin
+                                <input class="form-control" type="datetime-local" id="end">
+                            </p>
+                            <p class="guests">
+                                Huéspedes
+                                <input class="form-control" type="number" value="0" id="guests">
+                            </p>
+                        </div>
                     </div>
-                    <br>
                 </div>
             </div>
         </div>
@@ -83,9 +93,12 @@
                             novedades.
                         </p>
                         <ul>
-                            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a></li>
-                            <li class="list-inline-item"><a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a></li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"
+                                    class="fa fa-facebook"></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com" target="_blank"
+                                    class="fa fa-twitter"></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"
+                                    class="fa fa-instagram"></a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
