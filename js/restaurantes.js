@@ -10,6 +10,6 @@ function search() {
     } else if (guests.length == 0) {
         window.alert("¡Rellena todos los campos!");
     } else {
-        window.location.href = "busqueda.html";
+        window.location.href = "busquedaRestaurantes.html";
     }
 }

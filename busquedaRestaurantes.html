@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TRIPIN</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md ">
+        <a class="navbar-brand" href="index.html">TRIPIN. BUSQUEDA</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+        <a class="navbar-icon" href="login.html">
+            <img src="./images/user.png" width="35" height="35">
+        </a>
+    </nav>
+    <br><br>
+    <center>
+        <div class="search">
+            <input type="text" id="search" class="form-control" placeholder="Encuentra lo que buscas...">
+            <a style="cursor: pointer;">
+                <img src="./images/lupa.png" width="30" height="30" onclick="search()">
+            </a>
+        </div>
+        <div class="container">
+            <div class="row boxes">
+                <div class="col-md-3 box">
+                    <center>
+                        <br>
+                        <a href="valoracionRestaurante.html">
+                            <h4>Papúa</h4>
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <br><br>
+                            <img src="https://media.timeout.com/images/105737648/image.jpg" width="250">
+                            <br><br>
+                        </a>
+                        <button type="button" class="btn btn-success" onclick="booking()">Reservar</button>
+                        <br><br>
+                    </center>
+                </div>
+                <div class="col-md-3 box">
+                    <center>
+                        <br>
+                        <a href="valoracionRestaurante.html">
+                            <h4>Restaurante Casa Dani</h4>
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <br><br>
+                            <img src="./images/casadani.jpg" width="250">
+                            <br><br>
+                        </a>
+                        <button type="button" class="btn btn-success" onclick="booking()">Reservar</button>
+                        <br><br>
+                    </center>
+                </div>
+                <div class="col-md-3 box">
+                    <center>
+                        <br>
+                        <a href="valoracionRestaurante.html">
+                            <h4>Bel Mondo</h4>
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <br><br>
+                            <img src="https://media.timeout.com/images/105685323/1372/772/image.jpg" width="250">
+                            <br><br>
+                        </a>
+                        <button type="button" class="btn btn-success" onclick="booking()">Reservar</button>
+                        <br><br>
+                    </center>
+                </div>
+                <div class="col-md-3 box">
+                    <center>
+                        <br>
+                        <a href="#">
+                            <h4>BiBo Dani García</h4>
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <br><br>
+                            <img src="https://www.7canibales.com/wp-content/uploads/2016/08/Dani-Garc%C3%ADa-en-BiBo-Madrid_3441x2294.jpg" width="250">
+                            <br><br>
+                        </a>
+                        <button type="button" class="btn btn-success" onclick="booking()">Reservar</button>
+                        <br><br>
+                    </center>
+                </div>
+                <div class="col-md-3 box">
+                    <center>
+                        <br>
+                        <a href="#">
+                            <h4>Don Lay</h4>
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <br><br>
+                            <img src="https://media.timeout.com/images/105699201/1372/772/image.jpg" width="250">
+                            <br><br>
+                        </a>
+                        <button type="button" class="btn btn-success" onclick="booking()">Reservar</button>
+                        <br><br>
+                    </center>
+                </div>
+                <div class="col-md-3 box">
+                    <center>
+                        <br>
+                        <a href="#">
+                            <h4>Saddle Madrid</h4>
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <img src="./images/estrella.png" width="30">
+                            <br><br>
+                            <img src="https://restauracionnews.com/wp-content/uploads/2019/10/SaddleSala.jpg" width="250">
+                            <br><br>
+                        </a>
+                        <button type="button" class="btn btn-success" onclick="booking()">Reservar</button>
+                        <br><br>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </center>
+    <center>
+        <footer>
+            <hr />
+            <div class="container py-5">
+                <div class="row py-4">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <p align="left" style="text-align:justify">
+                            Entra y siguenos en nuestras cuentas de las redes sociales para enterarte de todas nuestras
+                            novedades.
+                        </p>
+                        <ul>
+                            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Nuestra web</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a class="footerlist" href="user.html">Tu perfil</a></li>
+                            <li class="mb-2"><a class="footerlist" href="hoteles.html">Hoteles</a></li>
+                            <li class="mb-2"><a class="footerlist" href="restaurantes.html">Restaurantes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Acceso</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a class="footerlist" href="login.html">Inicio de sesion</a></li>
+                            <li class="mb-2"><a class="footerlist" href="register.html">Registro</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <center>
+                        <p>© Tripin derechos reservados ©</p>
+                    </center>
+                </div>
+            </div>
+        </footer>
+    </center>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/busquedaRestaurantes.js"></script>
+</body>
+
+</html>

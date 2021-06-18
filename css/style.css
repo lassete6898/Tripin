@@ -183,6 +183,17 @@ footer {
   text-align: justify;
 }
 
+.comments input {
+  margin-left: 25%;
+  width: 65%;
+}
+
+.comments button {
+  margin-top: 2%;
+  margin-left: 1%;
+  height: 5%;
+}
+
 .select {
   margin-left: 22%;
 }
@@ -209,4 +220,8 @@ footer {
 #end {
   width: 10em;
   margin-right: 2%;
+}
+
+.like  {
+  color: red;
 }
