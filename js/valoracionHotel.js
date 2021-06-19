@@ -1,7 +1,13 @@
 function booking() {
-    window.alert("¡Reserva realizada correctamente!")
+  swal({
+    text: "¡Reserva realizada correctamente!",
+    icon: "success",
+  });
 }
 
 function like() {
-    window.alert("Hotel añadido a favoritos!")
+  swal({
+    text: "¡Restaurante añadido a favoritos!",
+    icon: "success",
+  });
 }

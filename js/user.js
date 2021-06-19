@@ -1,20 +1,48 @@
 function closeSession() {
-  alert("¡Sesión cerrada correctamente!");
-  window.location.href = "login.html";
+  swal({
+    title: "Cerrar Sesión",
+    text: "¡Sesión cerrada correctamente!",
+    icon: "success",
+  }).then(function () {
+    window.location = "login.html";
+  });
 }
 
 function deleteBooking() {
-  window.alert("¡Reserva cancelada correctamente!")
+  swal({
+    title: "¿Estás seguro de que deseas cancelar la reserva?",
+    icon: "warning",
+    buttons: true,
+    dangerMode: true,
+  }).then((willDelete) => {
+    if (willDelete) {
+      swal("¡Reserva cancelada correctamente!", {
+        icon: "success",
+      });
+    }
+  });
 }
 
-function detalleReserva1(){
-  window.alert("Reserva para dos personas, del 25 de mayo al 20 de junio")
+function booking1() {
+  swal({
+    title: "Hotel Riu Plaza España",
+    text: "A continuación se muestran los detalles de su reserva: \n\n Número de huéspedes: 2 \n Fecha de inicio: 25/05/2021 \n Fecha de fin: 25/06/2021",
+    icon: "info",
+  });
 }
 
-function detalleReserva2(){
-  window.alert("Reserva para dos personas, del 25 de junio al 15 de julio")
+function booking2() {
+  swal({
+    title: "Restaurante Casa Dani",
+    text: "A continuación se muestran los detalles de su reserva: \n\n Número de comensales: 2 \n Fecha: 25/06/2021",
+    icon: "info",
+  });
 }
 
-function detalleReserva3(){
-  window.alert("Reserva para dos personas, del 25 de julio al 1 de agosto")
+function booking3() {
+  swal({
+    title: "Eurostars Madrid Tower",
+    text: "A continuación se muestran los detalles de su reserva: \n\n Número de huéspedes: 2 \n Fecha de inicio: 25/06/2021 \n Fecha de fin: 25/07/2021",
+    icon: "info",
+  });
 }
