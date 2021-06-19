@@ -39,6 +39,9 @@ body {
   width: 75%;
 }
 
+.row{
+  padding-left: 2.5%;
+}
 .carousel-caption {
   color: black;
   background-color: white;
