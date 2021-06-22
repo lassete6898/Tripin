@@ -5,9 +5,9 @@ function register() {
   var password = document.getElementById("password").value;
   var passwordConfirm = document.getElementById("passwordConfirm").value;
 
-  if (password.length == 0 && passwordConfirm.length == 0) {
+  if (name.length == 0 && surname.length == 0 && email.length == 0 && password.length == 0) {
     swal({
-      text: "¡Introduce una contraseña!",
+      text: "¡Rellena todos los campos!",
       icon: "error",
     });
   } else if (password != passwordConfirm) {
