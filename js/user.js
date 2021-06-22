@@ -3,6 +3,7 @@ function closeSession() {
     title: "Cerrar Sesión",
     text: "¡Sesión cerrada correctamente!",
     icon: "success",
+    timer: 1500,
   }).then(function () {
     window.location = "login.html";
   });
