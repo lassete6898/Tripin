@@ -6,9 +6,15 @@ function register() {
   var passwordConfirm = document.getElementById("passwordConfirm").value;
 
   if (password.length == 0 && passwordConfirm.length == 0) {
-    window.alert("Introduce una contraseña");
+    swal({
+      text: "¡Introduce una contraseña!",
+      icon: "error",
+    });
   } else if (password != passwordConfirm) {
-    window.alert("Las contraseñas no coinciden");
+    swal({
+      text: "¡Las contraseñas no coinciden!",
+      icon: "error",
+    });
   } else {
     window.location.href = "user.html";
   }

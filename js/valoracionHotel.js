@@ -1,6 +1,7 @@
 function booking() {
   swal({
-    text: "¡Reserva realizada correctamente!",
+    title: "¡Reserva realizada correctamente!",
+    text: "Fecha Inicio: 25/05/2021 y Fecha Fin: 27/05/2021 \n Huéspedes: 2",
     icon: "success",
   });
 }
