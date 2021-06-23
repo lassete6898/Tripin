@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 .navbar {
-  background-color: #0B9EDE;
+  background-color: #67c9f3;
   box-shadow: 0 1px 4px 0 black;
 }
 
@@ -12,13 +12,13 @@ body {
 .card-img-top {
   padding: 0.5%;
   border-radius: 5px;
+  
 }
 
 .navbar-brand {
   color: black;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
-  margin-left: 7%;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h2 {
 }
 
 .navbar-icon {
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .form-control {
@@ -131,12 +131,13 @@ h2 {
 }
 
 .grid {
-  margin-top: 5%;
+  margin-top: 7%;
   padding: 1%;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
   max-width: 27.3%;
+
 }
 
 .grid a {
@@ -146,9 +147,22 @@ h2 {
   font-size: 18px;
 }
 
+.gridH2 {
+  margin-top: 7%;
+  margin-left: 2.5%;
+  margin-bottom: 3%;
+  padding-left: 1%;
+  padding-top: 0.5%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 5px;
+  tab-size: 3%;
+}
+
 footer {
   padding-bottom: 1%;
-  background-color: #0B9EDE;
+  background-color: #67c9f3;
   margin-top: 20%;
 }
 
