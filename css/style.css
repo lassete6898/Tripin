@@ -148,7 +148,7 @@ h2 {
 }
 
 .gridH2 {
-  margin-top: 7%;
+  margin-top: 5%;
   margin-left: 2.5%;
   margin-bottom: 3%;
   padding-left: 1%;
@@ -157,13 +157,12 @@ h2 {
   background-color: rgb(255, 255, 255);
   border: 2px solid black;
   border-radius: 5px;
-  tab-size: 3%;
 }
 
 footer {
   padding-bottom: 1%;
   background-color: #67c9f3;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .footerlist {
