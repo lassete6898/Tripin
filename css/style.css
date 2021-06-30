@@ -16,9 +16,7 @@ body {
 }
 
 .navbar-brand {
-  color: black;
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  margin-left: 5%;
 }
 
 h2 {
