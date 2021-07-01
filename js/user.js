@@ -47,3 +47,10 @@ function booking3() {
     icon: "info",
   });
 }
+
+function dislike() {
+  swal({
+    text: "¡Eliminado de favoritos!",
+    icon: "success",
+  });
+}
