@@ -8,7 +8,7 @@ function booking() {
 
 function like() {
   swal({
-    text: "¡Restaurante añadido a favoritos!",
+    text: "¡Hotel añadido a favoritos!",
     icon: "success",
   });
 }
