@@ -4,8 +4,8 @@ function contactar() {
       icon: "info",
       buttons: true,
       dangerMode: false,
-    }).then((willDelete) => {
-      if (willDelete) {
+    }).then((willSend) => {
+      if (willSend) {
         swal("¡Formulario enviado correctamente!", {
           icon: "success",
         });
