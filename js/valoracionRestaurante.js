@@ -20,3 +20,14 @@ function like() {
     icon: "success",
   });
 }
+
+function rating() {
+  swal({
+    text: "¡Comentario enviado!",
+    icon: "success",
+  }).then((click) => {
+    if (click) {
+      location.reload();
+    }
+  });
+}
