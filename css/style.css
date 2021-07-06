@@ -335,6 +335,9 @@ footer {
   float: left;
   height: 46px;
   padding: 0 10px;
+  background-color: rgb(158, 156, 156);
+  border-radius: 5px;
+  margin-left: 25%;
 }
 .rate:not(:checked) > input {
   position: absolute;
