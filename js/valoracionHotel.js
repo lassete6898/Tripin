@@ -22,12 +22,34 @@ function like() {
 }
 
 function rating() {
-  swal({
-    text: "¡Comentario enviado!",
-    icon: "success",
-  }).then((click) => {
-    if (click) {
-      location.reload();
-    }
-  });
+  var comment = document.getElementById("comment").value;
+
+  if (comment.length == 0) {
+    swal({
+      title: "¿Estás seguro de que deseas enviar solo la puntuación?",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    }).then((send) => {
+      if (send) {
+        swal({
+          text: "¡Comentario enviado!",
+          icon: "success",
+        }).then((click) => {
+          if (click) {
+            location.reload();
+          }
+        });
+      }
+    });
+  } else {
+    swal({
+      text: "¡Comentario enviado!",
+      icon: "success",
+    }).then((click) => {
+      if (click) {
+        location.reload();
+      }
+    });
+  }
 }
